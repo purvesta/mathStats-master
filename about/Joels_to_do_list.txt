@@ -1,0 +1,27 @@
+   Exporting Stuff
+-----------------------
+http://jsfiddle.net/348sh/3/
+http://www.homeandlearn.co.uk/php/php4p10.html
+
+
+--------------------------------
+      Website Plan
+
+1. User inputs file and chooses type
+2. Clicks button
+3. Client creates GLOBAL variable storing name of file and chartType
+4. Page changes to display page
+4. Runs ajax call to store file and getFileData, then echos it as a JSON string for Ajax call
+5. Ajax call success function is passed the JSON string with contents of the file they submitted
+6. Parse and shove returned data into necessary functions for Highcharts
+7. Once data is given to Highcharts, the graph will display in the container div-- VOila!
+
+
+ Ajax Calls
+--------------
+GLOBAL
+Line 21
+Line 77
+
+Chart.js
+Line 7
